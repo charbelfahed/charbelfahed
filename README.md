@@ -11,43 +11,63 @@
         <h1>Welcome to the Space Explorer</h1>
         <p>Discover the wonders of the universe!</p>
     </header>
+    
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+    color: #ffffff;
+}
 
-    <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#galaxy">Galaxy</a></li>
-            <li><a href="#planets">Planets</a></li>
-            <li><a href="#stars">Stars</a></li>
-        </ul>
-    </nav>
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+}
 
-    <section id="home">
-        <h2>Explore the Universe</h2>
-        <p>Welcome to our space exploration website. Learn about galaxies, planets, and stars.</p>
-    </section>
+header {
+    text-align: center;
+}
 
-    <section id="galaxy">
-        <h2>Galaxies</h2>
-        <p>Discover the vastness of different galaxies and their unique features.</p>
-    </section>
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
 
-    <section id="planets">
-        <h2>Planets</h2>
-        <p>Explore fascinating facts about planets in our solar system and beyond.</p>
-    </section>
+nav li {
+    float: left;
+}
 
-    <section id="stars">
-        <h2>Stars</h2>
-        <p>Learn about the different types of stars and their life cycles.</p>
-    </section>
+nav a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
 
-    <footer>
-        <p>&copy; 2023 Space Explorer. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
 
-<!---
-charbelfahed/charbelfahed is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+section {
+    background-color: #111;
+    border: 1px solid #444;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #888;
+    font-size: 0.8em;
+    margin-top: 50px;
+}
+
+
+
+
